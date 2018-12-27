@@ -1,7 +1,7 @@
 
 <h3> Account Generator </h3> 
 I am releasing this script because some people asked me if they can buy it.. so there you go.
-<br></br>
+<br>
 NEWS: I removed email confirmation, now when you create an account it gets activated automatically without any email verification.
 <h5> Todo list </h5>
 <ul>

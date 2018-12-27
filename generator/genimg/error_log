@@ -1,0 +1,54 @@
+[23-Sep-2017 20:26:25 UTC] PHP Warning:  include(inc/database.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/support.php on line 5
+[23-Sep-2017 20:26:25 UTC] PHP Warning:  include(inc/database.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/support.php on line 5
+[23-Sep-2017 20:26:25 UTC] PHP Warning:  include(): Failed opening 'inc/database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/royaltyg1/public_html/generator/genimg/support.php on line 5
+[23-Sep-2017 20:26:25 UTC] PHP Warning:  include(inc/header.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/support.php on line 6
+[23-Sep-2017 20:26:25 UTC] PHP Warning:  include(inc/header.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/support.php on line 6
+[23-Sep-2017 20:26:25 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/royaltyg1/public_html/generator/genimg/support.php on line 6
+[23-Sep-2017 20:26:25 UTC] PHP Notice:  Undefined variable: favicon in /home/royaltyg1/public_html/generator/genimg/support.php on line 46
+[23-Sep-2017 20:26:25 UTC] PHP Notice:  Undefined variable: con in /home/royaltyg1/public_html/generator/genimg/support.php on line 314
+[23-Sep-2017 20:26:25 UTC] PHP Notice:  Undefined variable: username in /home/royaltyg1/public_html/generator/genimg/support.php on line 314
+[23-Sep-2017 20:26:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/royaltyg1/public_html/generator/genimg/support.php on line 314
+[23-Sep-2017 20:26:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/royaltyg1/public_html/generator/genimg/support.php on line 315
+[23-Sep-2017 20:26:25 UTC] PHP Notice:  Undefined variable: con in /home/royaltyg1/public_html/generator/genimg/support.php on line 365
+[23-Sep-2017 20:26:25 UTC] PHP Notice:  Undefined variable: username in /home/royaltyg1/public_html/generator/genimg/support.php on line 365
+[23-Sep-2017 20:26:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/royaltyg1/public_html/generator/genimg/support.php on line 365
+[23-Sep-2017 20:26:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/royaltyg1/public_html/generator/genimg/support.php on line 366
+[23-Sep-2017 20:28:54 UTC] PHP Warning:  include(inc/database.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/support.php on line 5
+[23-Sep-2017 20:28:54 UTC] PHP Warning:  include(inc/database.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/support.php on line 5
+[23-Sep-2017 20:28:54 UTC] PHP Warning:  include(): Failed opening 'inc/database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/royaltyg1/public_html/generator/genimg/support.php on line 5
+[23-Sep-2017 20:28:54 UTC] PHP Warning:  include(inc/header.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/support.php on line 6
+[23-Sep-2017 20:28:54 UTC] PHP Warning:  include(inc/header.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/support.php on line 6
+[23-Sep-2017 20:28:54 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/royaltyg1/public_html/generator/genimg/support.php on line 6
+[23-Sep-2017 20:28:54 UTC] PHP Notice:  Undefined variable: favicon in /home/royaltyg1/public_html/generator/genimg/support.php on line 46
+[23-Sep-2017 20:28:54 UTC] PHP Notice:  Undefined variable: con in /home/royaltyg1/public_html/generator/genimg/support.php on line 314
+[23-Sep-2017 20:28:54 UTC] PHP Notice:  Undefined variable: username in /home/royaltyg1/public_html/generator/genimg/support.php on line 314
+[23-Sep-2017 20:28:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/royaltyg1/public_html/generator/genimg/support.php on line 314
+[23-Sep-2017 20:28:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/royaltyg1/public_html/generator/genimg/support.php on line 315
+[23-Sep-2017 20:28:54 UTC] PHP Notice:  Undefined variable: con in /home/royaltyg1/public_html/generator/genimg/support.php on line 365
+[23-Sep-2017 20:28:54 UTC] PHP Notice:  Undefined variable: username in /home/royaltyg1/public_html/generator/genimg/support.php on line 365
+[23-Sep-2017 20:28:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/royaltyg1/public_html/generator/genimg/support.php on line 365
+[23-Sep-2017 20:28:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/royaltyg1/public_html/generator/genimg/support.php on line 366
+[23-Sep-2017 20:34:01 UTC] PHP Warning:  include(inc/database.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/support.php on line 5
+[23-Sep-2017 20:34:01 UTC] PHP Warning:  include(inc/database.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/support.php on line 5
+[23-Sep-2017 20:34:01 UTC] PHP Warning:  include(): Failed opening 'inc/database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/royaltyg1/public_html/generator/genimg/support.php on line 5
+[23-Sep-2017 20:34:01 UTC] PHP Warning:  include(inc/header.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/support.php on line 6
+[23-Sep-2017 20:34:01 UTC] PHP Warning:  include(inc/header.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/support.php on line 6
+[23-Sep-2017 20:34:01 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/royaltyg1/public_html/generator/genimg/support.php on line 6
+[23-Sep-2017 20:34:01 UTC] PHP Notice:  Undefined variable: favicon in /home/royaltyg1/public_html/generator/genimg/support.php on line 46
+[23-Sep-2017 20:34:01 UTC] PHP Notice:  Undefined variable: con in /home/royaltyg1/public_html/generator/genimg/support.php on line 314
+[23-Sep-2017 20:34:01 UTC] PHP Notice:  Undefined variable: username in /home/royaltyg1/public_html/generator/genimg/support.php on line 314
+[23-Sep-2017 20:34:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/royaltyg1/public_html/generator/genimg/support.php on line 314
+[23-Sep-2017 20:34:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/royaltyg1/public_html/generator/genimg/support.php on line 315
+[23-Sep-2017 20:34:01 UTC] PHP Notice:  Undefined variable: con in /home/royaltyg1/public_html/generator/genimg/support.php on line 365
+[23-Sep-2017 20:34:01 UTC] PHP Notice:  Undefined variable: username in /home/royaltyg1/public_html/generator/genimg/support.php on line 365
+[23-Sep-2017 20:34:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/royaltyg1/public_html/generator/genimg/support.php on line 365
+[23-Sep-2017 20:34:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/royaltyg1/public_html/generator/genimg/support.php on line 366
+[23-Sep-2017 20:51:32 UTC] PHP Warning:  include(inc/header.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/profile.php on line 3
+[23-Sep-2017 20:51:32 UTC] PHP Warning:  include(inc/header.php): failed to open stream: No such file or directory in /home/royaltyg1/public_html/generator/genimg/profile.php on line 3
+[23-Sep-2017 20:51:32 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/royaltyg1/public_html/generator/genimg/profile.php on line 3
+[23-Sep-2017 20:51:32 UTC] PHP Notice:  Undefined variable: con in /home/royaltyg1/public_html/generator/genimg/profile.php on line 5
+[23-Sep-2017 20:51:32 UTC] PHP Notice:  Undefined variable: username in /home/royaltyg1/public_html/generator/genimg/profile.php on line 5
+[23-Sep-2017 20:51:32 UTC] PHP Notice:  Undefined variable: date in /home/royaltyg1/public_html/generator/genimg/profile.php on line 5
+[23-Sep-2017 20:51:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/royaltyg1/public_html/generator/genimg/profile.php on line 5
+[23-Sep-2017 20:51:32 UTC] PHP Notice:  Undefined variable: con in /home/royaltyg1/public_html/generator/genimg/profile.php on line 5
+[23-Sep-2017 20:51:32 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/royaltyg1/public_html/generator/genimg/profile.php on line 5

@@ -1,0 +1,8 @@
+/*
+ Template Name: Admiry - Bootstrap 4 Admin Dashboard
+ Author: Themesdesign
+ Website: www.themesdesign.in
+ File: Dashboard js (Demo only - minify)
+ */
+
+!function(e){"use strict";var a=function(){};a.prototype.createAreaChart=function(e,a,r,t,o,i,b,n){Morris.Area({element:e,pointSize:4,lineWidth:2,data:t,xkey:o,ykeys:i,labels:b,resize:!0,gridLineColor:"#eee",hideHover:"auto",lineColors:n})},a.prototype.createBarChart=function(e,a,r,t,o,i){Morris.Bar({element:e,data:a,xkey:r,ykeys:t,labels:o,gridLineColor:"#eee",barSizeRatio:.4,resize:!0,hideHover:"auto",barColors:i})},a.prototype.createDonutChart=function(e,a,r){Morris.Donut({element:e,data:a,resize:!0,colors:r})},a.prototype.init=function(){var e=[{y:"2009",a:10,b:20},{y:"2010",a:75,b:65},{y:"2011",a:50,b:40},{y:"2012",a:75,b:65},{y:"2013",a:50,b:40},{y:"2014",a:75,b:65},{y:"2015",a:90,b:60},{y:"2016",a:90,b:75}];this.createAreaChart("morris-area-example",0,0,e,"y",["a","b"],["Series A","Series B"],["#337ab7","#67a8e4"]);var a=[{y:"2009",a:100,b:90},{y:"2010",a:75,b:65},{y:"2011",a:50,b:40},{y:"2012",a:75,b:65},{y:"2013",a:50,b:40},{y:"2014",a:75,b:65},{y:"2015",a:100,b:90},{y:"2016",a:90,b:75}];this.createBarChart("morris-bar-example",a,"y",["a","b"],["Series A","Series B"],["#337ab7","#67a8e4"]);var r=[{label:"Themeforest",value:12},{label:"Wrapbootstrap",value:42},{label:"Audiojungle",value:20}];this.createDonutChart("morris-donut-example",r,["#f0f1f4","#67a8e4","#337ab7"])},e.Dashboard=new a,e.Dashboard.Constructor=a}(window.jQuery),function(e){"use strict";e.Dashboard.init()}(window.jQuery);

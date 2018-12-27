@@ -1,0 +1,144 @@
+# deny folder listing
+IndexIgnore *
+# Don not allow any pages to be framed - Defends against CSRF
+
+Header always edit Set-Cookie (.*) "$1; HTTPOnly"
+Header always edit Set-Cookie (.*) "$1; Secure"
+
+Header edit Set-Cookie ^(.*)$ $1;HttpOnly;Secure
+
+# Don not allow inline JavaScript to run.
+Header set X-Content-Security-Policy "allow 'self';"
+# Prevent mime based attacks
+Header set X-Content-Type-Options "nosniff"
+# Disable server sign
+ServerSignature Off
+# drop Range header when more than 5 ranges. CVE-2011-3192
+SetEnvIf Range (,.*?){5,} bad-range=1
+RequestHeader unset Range env=bad-range
+# LIMIT UPLOAD FILE SIZE TO PROTECT AGAINST DOS ATTACK. Bytes, 0-2147483647(2GB)
+LimitRequestBody 2147483647
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://carl0.ml/$1 [R,L]
+# Extra Security Headers
+<IfModule mod_headers.c>
+  Header set X-XSS-Protection "1; mode=block"
+  Header always append X-Frame-Options SAMEORIGIN
+  Header set X-Content-Type-Options nosniff
+  Header set X-Frame-Options DENY
+
+
+</IfModule>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} !^(GET|POST|HEAD)
+RewriteRule .* - [R=405,L]
+# ----------------------------------------------------------------------
+# Cross-domain AJAX requests, ENABLE CSRF first (see above)
+# ----------------------------------------------------------------------
+# Serve cross-domain Ajax requests, disabled by default. Enable-cors.org
+# code.google.com/p/html5security/wiki/CrossOriginRequestSecurity
+#  <IfModule mod_headers.c>
+#    Header set Access-Control-Allow-Origin "*"
+#  </IfModule>
+#
+#
+# ----------------------------------------------------------------------
+# CORS-enabled images (@crossorigin)
+# ----------------------------------------------------------------------
+# Send CORS headers if browsers request them; enabled by default for images.
+# futher details:
+# - developer.mozilla.org/en/CORS_Enabled_Image
+# - blog.chromium.org/2011/07/using-cross-domain-images-in-webgl-and.html
+# - hacks.mozilla.org/2011/11/using-cors-to-load-webgl-textures-from-cross-domain-images/
+# - wiki.mozilla.org/Security/Reviews/crossoriginAttribute
+<IfModule mod_setenvif.c>
+  <IfModule mod_headers.c>
+    # mod_headers, y u no match by Content-Type?!
+    <FilesMatch "\.(gif|png|jpe?g|svg|svgz|ico|webp)$">
+      SetEnvIf Origin ":" IS_CORS
+      Header set Access-Control-Allow-Origin "*" env=IS_CORS
+    </FilesMatch>
+  </IfModule>
+</IfModule>
+#
+#
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-transform"
+</IfModule>
+#RewriteEngine On 
+RewriteCond %{HTTPS} on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+########## Begin - File injection protection, by SigSiu.net
+RewriteCond %{REQUEST_METHOD} GET
+RewriteCond %{QUERY_STRING} [a-zA-Z0-9_]=http:// [OR]
+RewriteCond %{QUERY_STRING} [a-zA-Z0-9_]=(\.\.//?)+ [OR]
+RewriteCond %{QUERY_STRING} [a-zA-Z0-9_]=/([a-z0-9_.]//?)+ [NC]
+RewriteRule .* - [F]
+########## End - File injection protection
+RewriteCond %{QUERY_STRING} [a-zA-Z0-9_]=http%3A%2F%2F [OR]
+#proc/self/environ? no way!
+RewriteCond %{QUERY_STRING} proc\/self\/environ [NC,OR] 
+
+# drop Range header when more than 5 ranges.
+# CVE-2011-3192
+SetEnvIf Range (,.*?){5,} bad-range=1
+RequestHeader unset Range env=bad-range
+# optional logging.
+#CustomLog insert-path-and-name-of-log common env=bad-range
+<IfModule mod_rewrite.c>
+  
+# </IfModule>
+# PHP-CGI Vulnerability
+RewriteCond %{QUERY_STRING} ^(%2d|\-)[^=]+$ [NC]
+RewriteRule (.*) - [F,L]
+
+RewriteEngine On
+# stop hotlinking
+RewriteCond %{HTTP_REFERER} !^$
+# allow myspace and facebook
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?myspace\.com [NC]
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?facebook\.com [NC]
+# allow different subdomains from mail.live.com
+RewriteCond %{HTTP_REFERER} !^http://([^.]+\.)+mail\.live\.com [NC]
+# allow several search engines
+RewriteCond %{HTTP_REFERER} !(google|msn|bing|bingj|yahoo|ask)\. [NC]
+RewriteCond %{REQUEST_URI} !^/hotlinking/hotlink\.gif$
+RewriteRule \.(gif|jpe?g|bmp|swf)$ /hotlinking/hotlink.gif [NC,L]
+
+RewriteBase /
+# useragents starting with
+RewriteCond %{HTTP_USER_AGENT} ^atraxbot [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^Azureus [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^geohasher [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^PycURL [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^Python-urllib [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^research-scan-bot [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^Sosospider [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^Wget [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^xenu [NC,OR]
+# user agent contains string
+RewriteCond %{HTTP_USER_AGENT} ^.*casper [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*goblox [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^.*sun4u [NC]
+RewriteRule ^(.*)$ - [F]
+
+
+DirectoryIndex login.php
+
+<FilesMatch "(?i).jpe?g$">
+    ForceType image/jpeg
+</FilesMatch>
+<FilesMatch "(?i).gif$">
+    ForceType image/gif
+</FilesMatch>
+<FilesMatch "(?i).png$">
+    ForceType image/png
+</FilesMatch>
+
+ErrorDocument 400 /generator/pages/400.html
+ErrorDocument 401 /generator/pages/401.html
+ErrorDocument 403 /generator/pages/403.html
+ErrorDocument 404 /generator/pages/404.html
+ErrorDocument 500 /generator/pages/500.html

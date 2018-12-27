@@ -1,0 +1,43 @@
+.dominence-admin:before,
+.dropdown-title,
+.toggle-button .menu-bar-middle ,
+.on-off-switch-track-on,
+.status-upload ul > li > a:hover,
+.personal-intro:before,
+.todo-list > form a,
+.weatherFeed:before,
+.fc-toolbar,
+.fc-day-header,
+fc-content,
+.fc-day-grid-event,
+a.fc-more,
+.chat-title,
+.message-box .message-submit,
+.login-box form button,
+.simple-btn,
+.button,
+.mail-list li > i,
+.gallery-box .html5lightbox{
+	background-color:#20a2d6;
+}
+
+a:hover,
+a:active,
+a:focus,
+header > a,
+.info-detail > i a,
+.info-detail i,
+.more-links > a i,
+.location i,
+.welcome-text > strong a,
+nav ul li.active > a,
+.pagination > li a,
+.error-page h1{
+	color:#20a2d6;
+}
+
+.dropdown:before,
+.toggle-button .menu-bar-top,
+.toggle-button .menu-bar-bottom{
+	border-color:#20a2d6;
+}

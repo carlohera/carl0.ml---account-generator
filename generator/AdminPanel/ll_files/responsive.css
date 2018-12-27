@@ -1,0 +1,109 @@
+
+
+@media (max-width:980px){
+.widgets-holder .row > .masonary > div{float:left;width:50%}
+.widgets-holder .row > .masonary > div.col-md-12{width:100%}
+.content-area{padding:40px 15px}
+.dominence-layout.extend,.dominence-layout{padding-left:60px}
+.dominence-sidemenu{
+    -webkit-transform:translateX(-100%);
+    -moz-transform:translateX(-100%);
+    -ms-transform:translateX(-100%);
+    -o-transform:translateX(-100%);
+    transform:translateX(-100%);
+}
+.dominence-sidemenu.out,
+.collapsed-menu{
+    -webkit-transform:translateX(0);
+    -moz-transform:translateX(0);
+    -ms-transform:translateX(0);
+    -o-transform:translateX(0);
+    transform:translateX(0);
+}
+.dominence-layout.extend{margin-left:190px}
+.gallery-images .row > div{float:left; width:50%}
+.navigation{height:200px}
+.projects-table td{font-size:11px;line-height:14px!important}
+.fc-unthemed .fc-popover{top:0!important}
+.fc-toolbar,
+.fc-view-container{min-width:800px}
+.fontawesome-icon-list{margin:0}
+.links a{float:left;width:50%}
+
+}
+
+
+@media (max-width:767px){
+.widgets-holder .row > .masonary > div{float:left;width:100%}
+.collapsed-menu{display:none}
+.dominence-layout.extend, .dominence-layout{padding:0}
+.dominence-layout.extend{margin:0}
+header{padding:50px 10px 20px; text-align:center}
+.welcome{width:100%;margin-bottom:20px;max-width:100%}
+.header-exts{float:left; width:100%;text-align:center}
+.curr-bal{float:left; margin-bottom:20px; width:100%}
+.curr-bal table{float:left}
+.widget .curr-bal table{float:right}
+.location{overflow:hidden; padding:5px; width:100%}
+.location > div{display:unset}
+.header-search,.full-screen,.notification{display:inline-block; float:none}
+header > a{display:inline-block; float:none}
+.breadcrumbs-bar{padding:10px}
+.breadcrumbs{text-align:center; width:100%; }
+.breadcrumbs li{display:inline-block; float:none; margin:0; padding:0 9px; }
+.more-links{text-align:center; width:100%; }
+.more-links > a{display:inline-block; float:none; margin:0 5px; }
+.fc-toolbar .fc-left{float:left;margin-bottom:10px;text-align:center;width:100%}
+.fc-right{margin-bottom:10px;width:100%}
+.fc-toolbar .fc-center{float:left;text-align:center;width:100%}
+.fc-button-group, .fc-icon,.fc-button{border-radius:3px; float:none!important; margin:0 4px!important}
+.fc-toolbar h2{width:100%}
+.error-page{padding:40px 20px}
+.error-page p{margin:0 auto 20px;width:100%}
+.error-page strong{font-size:25px}
+.error-page h1{font-size:70px;margin-bottom:20px}
+.wizard .nav-tabs > li a{height:50px; line-height:50px; width:50px}
+.wizard li span.round-tab{font-size:16px; height:50px; line-height:46px; width:50px}
+.wizard{padding:0 15px}
+.list-inline > li{margin:0 10px 10px 0}
+.wdth{width:100%}
+.dropselectsec1{float:left; margin-bottom:10px; margin-left:0; width:100%}
+.dropselectsec,.birthdrop{float:left; margin-bottom:10px; margin-left:0; width:100%}
+.wizard p{text-align:left}
+.timeline{padding:70px 0 0}
+.timeline-detail:before{left:7px;top:-7px;border-right:8px solid transparent;border-bottom:8px solid #e5e5e5;border-left:8px solid transparent;border-top:0}
+.mail-sidebar{padding:10px; width:100%}
+.mail-content{width:100%}
+.mail-bar > ul{margin:0; width:100%}
+.mail-bar > ul li a{font-size:11px; padding:10px 7px}
+.mail-list span{width:100%}
+.mail-list span strong{margin-right:10px; width:40%}
+.login-page{float:left; height:auto !important; padding:0 20px; width:100%}
+.login-box{border-width:5px; float:left; left:0; margin:60px 0; padding:20px 10px 30px; position:relative; top:0; width:100%;
+-webkit-transform:translate(0);
+-moz-transform:translate(0);
+-ms-transform:translate(0);
+-o-transform:translate(0);
+transform:translate(0);
+ }
+.login-page:before{background-size:100% 100%}
+.login-box .logo{padding:10px}
+.login-box strong{margin-bottom:15px}
+.login-box form input{margin-bottom:10px}
+.login-box .socials{margin-top:10px}
+.login-links a{font-size:14px}
+.gallery-images .row > div{width:100%}
+.dropdown{right:-40px;width:250px;text-align:left}
+.widget .dropdown{right:0}
+.message-part{width:100%}
+.attached-files{width:100%}
+.sender > img{width:50px}
+.message-header{padding:20px}
+.mail-bar > ul li{width:50%}
+.mail-bar > ul li a{float:left;width:100%}
+
+}
+
+@media (max-width:480px){
+}
+

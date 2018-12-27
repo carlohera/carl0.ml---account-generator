@@ -1,0 +1,103 @@
+[03-Jun-2018 02:25:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ufwpzfhk/public_html/dark/communitychat.php on line 85
+[09-Jun-2018 20:56:17 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 20:56:17 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 20:56:17 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 20:56:40 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 20:56:40 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 20:56:40 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:00:15 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:00:15 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:00:15 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:00:51 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:00:51 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:00:51 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:03:00 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:03:00 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:03:00 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:03:24 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:03:24 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:03:24 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:04:02 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:04:03 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:04:03 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:07:10 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:07:10 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:07:10 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:13:00 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:13:00 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:13:00 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:24:31 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:24:31 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:24:31 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:25:24 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:25:24 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:25:24 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:30:10 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:30:10 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:30:10 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:30:21 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:30:21 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:30:21 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:33:44 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:33:44 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:33:44 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:34:41 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:34:41 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:34:41 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:45:14 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:45:14 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:45:14 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:45:22 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:45:22 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:45:22 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:47:53 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:47:53 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:47:53 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:48:02 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:48:02 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:48:02 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:49:34 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:49:34 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 21:49:34 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:00:46 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:00:46 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:00:46 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:01:01 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:01:01 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:01:01 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:02:33 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:02:33 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:02:33 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:04:53 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:04:53 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:04:53 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:06:54 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:06:54 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:06:54 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:07:05 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:07:05 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:07:05 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:12:16 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:12:16 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:12:16 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:26:27 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:26:27 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:26:27 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:26:57 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:26:57 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:26:57 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:28:58 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:28:58 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:28:58 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:31:31 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:31:31 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:31:31 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:33:15 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:33:15 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:33:15 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:41:02 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:41:02 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:41:02 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:44:10 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:44:10 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/ufwpzfhk/public_html/generator2/register.php on line 9
+[09-Jun-2018 22:44:10 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/ufwpzfhk/public_html/generator2/register.php on line 9

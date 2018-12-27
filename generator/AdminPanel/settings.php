@@ -2,6 +2,7 @@
 	require_once('pieces/header.php');
 	require_once('pieces/inc.php');
 include "inc/header.php";
+include "../inc/connection.php";
 
 if ($_SESSION['rank'] < "5") {
 	header('Location: ../haha.php');

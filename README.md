@@ -8,7 +8,7 @@ NEWS: I removed email confirmation, now when you create an account it gets activ
   <li>Modify inc/database.php + AdminPanel/inc/database.php + php/database.php + AdminPanel/php/database.php </li>
   <li>Install ioncube on your server to make website work </li>
   <li>Edit .httaccess with your website address (<font color"red">2 .httaccess files</font>, one in main folder, one in AdminPanel)</li>
-  <li>For support please contact me!</li>
+  <li>For support please contact me! - it's not free anyway :P</li>
   </ul>
   <h5> Contact </h5>
   <ul>

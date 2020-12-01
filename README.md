@@ -1,5 +1,5 @@
 
-<h3> Account Generator </h3> 
+<h3> Account Generator - OLD STUFF [NOT SUPPORTED ANYMORE] </h3> 
 I am releasing this script because some people asked me if they can buy it.. so there you go.
 <br>
 NEWS: I removed email confirmation, now when you create an account it gets activated automatically without any email verification.
